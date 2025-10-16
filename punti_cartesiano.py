@@ -49,7 +49,7 @@ print(massimo)
 
 minimo=punti_cartesiano[0]
 for i in range(1,20):
-    if punti_cartesiano[0][i]<minimo[0]:
+    if punti_cartesiano[1][i]<minimo[1]:
         minimo=punti_cartesiano[i]
 print(minimo)
 

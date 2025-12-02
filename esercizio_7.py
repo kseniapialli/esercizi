@@ -1,4 +1,4 @@
-#scrivere una funzione che dati due numeri iteri restituisca il maggiore
+#scrivere una funzione che dati due numeri interi restituisca il maggiore
 def nMaggiore (nmero1,numero2):
     if numero1>numero2:
         return numero1
@@ -17,7 +17,7 @@ uno=int(uno)
 due=input("inserire il secondo numero ")
 due=int(due)
 
-risultato=nMaggiore(numero1,numero2)
+risultato=nMaggiore(uno,due)
 print(risultato)
 nPariDispari(risultato)
 

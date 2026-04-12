@@ -74,22 +74,22 @@ def giornata_fredda():
     fredda=media_lunedi
     giornata="lunedi"
     if media_martedi<fredda:
-        calda=media_martedi
+        fredda=media_martedi
         giornata="martedi"
     if media_mercoledi<fredda:
-        calda=media_mercoledi
+        fredda=media_mercoledi
         giornata="mercoledi"
     if media_giovedi<fredda:
-        calda=media_giovedi
+        fredda=media_giovedi
         giornata="giovedi"
     if media_venerdi<fredda:
-        calda=media_venerdi
+        fredda=media_venerdi
         giornata="venerdi"
     if media_sabato<fredda:
-        calda=media_sabato
+        fredda=media_sabato
         giornata="sabato"
     if media_domenica<fredda:
-        calda=media_domenica
+        fredda=media_domenica
         giornata="domenica"
     return(giornata)
  

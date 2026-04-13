@@ -30,16 +30,14 @@ def deviazione_standard(varianza):
     return(deviazione)
 
 def moda_giornaliera(lista):
-    moda=lista[0]
+    moda=0
     for i in range(0,len(lista)):
         contatore=0
-        contatore_moda=0
+        massimo=0
         for element in lista:
             if element==lista[i]:
                 contatore=contatore+1
-            if element==moda:
-                contatore_moda=contatore_moda+1
-        if contatore>contatore_moda:
+        if contatore>massimo:
             moda=lista[i]
     return(moda)
 

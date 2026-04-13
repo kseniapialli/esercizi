@@ -38,6 +38,7 @@ def moda_giornaliera(lista):
             if element==lista[i]:
                 contatore=contatore+1
         if contatore>massimo:
+            massimo=contatore
             moda=lista[i]
     return(moda)
 
